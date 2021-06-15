@@ -52,7 +52,7 @@ jar {
     manifest {
         attributes(
                 'Class-Path': configurations.compileClasspath.files.collect { it.getName() }.join(' '),
-                'Main-Class': 'test.gradle.build.App'
+                'Main-Class': 'init.ex.App'
         )
     }
 }
